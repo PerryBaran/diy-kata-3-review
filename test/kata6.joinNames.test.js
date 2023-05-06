@@ -3,15 +3,15 @@ const { joinNames } = require("../src");
 describe("joinNames", () => {
   test("returns string of names, seperated by commas and an ampersand", () => {
     const name1 = {
-      name: "Bart"
+      name: "Bart",
     };
-    
+
     const name2 = {
-      name: "Lisa"
+      name: "Lisa",
     };
 
     const name3 = {
-      name: "Maggie"
+      name: "Maggie",
     };
 
     expect(joinNames([name1, name2, name3])).toBe("Bart, Lisa & Maggie");

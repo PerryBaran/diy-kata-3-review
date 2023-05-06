@@ -1,4 +1,3 @@
-
 const { humanCatDogYears } = require("../src");
 
 describe("humanCatDogYears", () => {
@@ -7,5 +6,3 @@ describe("humanCatDogYears", () => {
     expect(humanCatDogYears(20)).toEqual([20, 96, 114]);
   });
 });
-
-
