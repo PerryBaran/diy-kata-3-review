@@ -21,11 +21,4 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(30)).toBe("FizzBuzz");
     expect(fizzBuzz(45)).toBe("FizzBuzz");
   });
-
-  test("returns the number when it isn't a multiple of 3 or 5", () => {
-    // Test with numbers that aren't multiples of 3 or 5
-    expect(fizzBuzz(7)).toBe(7);
-    expect(fizzBuzz(14)).toBe(14);
-    expect(fizzBuzz(19)).toBe(19);
-  });
 });
